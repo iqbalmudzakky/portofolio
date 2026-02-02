@@ -48,44 +48,65 @@ export default function Portfolio() {
       image: "./medqueue-ai.png",
       link: "https://medqueue-navy.vercel.app/",
     },
+    {
+      id: 3,
+      title: "MyQuip-App",
+      description:
+        "A modern e-commerce web application inspired by Quip, featuring product browsing, wishlist management, user authentication, and a responsive shopping experience.",
+      tech: [
+        "Next.js",
+        "TypeScript",
+        "RestAPI",
+        "MongoDB",
+        "JWT Authentication",
+        "Tailwind CSS",
+        "Zod",
+        "Infinite-Scroll",
+      ],
+      image: "./myquip.png",
+      link: "https://myquip-app.vercel.app/",
+    },
   ];
 
   const experiences = [
     {
       id: 1,
-      position: "Senior Full Stack Developer",
-      company: "TechVision Studios",
-      duration: "2022 - Present",
+      position: "Software Developer Intern",
+      company: "Datacom",
+      duration: "January 2026 - February 2026",
       description:
-        "Lead development team in creating innovative web applications using modern tech stacks. Mentor junior developers and implement best practices across the development process.",
-      highlights: ["Team Lead", "Architecture Design", "Code Review", "DevOps"],
+        "Completed a software development job simulation at Datacom involving application review, root cause analysis of bugs, implementation of fixes, and planning for future improvements.",
+      highlights: [
+        "Debugging with Browser Developer Tools",
+        "Identifying Root Cause of UI Bugs",
+        "Fixing Map Coordinate Logic",
+        "Working with Existing Codebase",
+      ],
     },
     {
       id: 2,
-      position: "Full Stack Engineer",
-      company: "Digital Solutions Inc",
-      duration: "2020 - 2022",
+      position: "Frontend Software Engineer Intern",
+      company: "Skyscanner",
+      duration: "January 2026",
       description:
-        "Developed and maintained multiple production applications. Collaborated with design teams to implement pixel-perfect UI. Optimized database queries and significantly improved application performance.",
+        "Completed a front-end engineering job simulation by developing a React application with Skyscanner’s Backpack design system and implementing a calendar-based travel date selection feature.",
       highlights: [
-        "Performance Optimization",
-        "API Development",
-        "Database Design",
-        "Testing",
+        "React Development",
+        "UI Component Customisation",
+        "Calendar Feature Implementation",
       ],
     },
     {
       id: 3,
-      position: "Frontend Developer",
-      company: "Creative Agency Co",
-      duration: "2019 - 2020",
+      position: "Design Engineer",
+      company: "PT Nifa Persada Teknindo",
+      duration: "February 2024 - September 2024",
       description:
-        "Built responsive web applications and interactive user interfaces. Worked with clients to understand requirements and delivered high-quality solutions on time.",
+        "Designed mechanical components using SolidWorks and AutoCAD with a focus on manufacturability and cost efficiency, while collaborating with cross-functional teams to ensure timely project delivery and smooth workflow coordination.",
       highlights: [
-        "Responsive Design",
-        "UI Implementation",
-        "Cross-browser Testing",
-        "Client Communication",
+        "3D Modeling & 2D Drafting",
+        "Design for Manufacturability",
+        "Cross-functional Collaboration",
       ],
     },
   ];
@@ -96,7 +117,7 @@ export default function Portfolio() {
       <nav className="sticky top-0 z-50 border-b border-border bg-background/80 backdrop-blur-md">
         <div className="mx-auto max-w-7xl px-6 py-4 flex items-center justify-between">
           <div className="text-2xl font-bold bg-linear-to-r from-accent to-blue-400 bg-clip-text text-transparent">
-            Muhammad Iqbal Mudzakky
+            <a href="#">Muhammad Iqbal Mudzakky</a>
           </div>
           <div className="flex items-center gap-8">
             <a
@@ -295,9 +316,13 @@ export default function Portfolio() {
             I'm always interested in hearing about new projects and
             opportunities. Feel free to reach out!
           </p>
-          <button className="px-8 py-3 bg-accent text-accent-foreground rounded-lg font-semibold hover:bg-blue-400 transition-colors">
+          <a
+            href="https://wa.me/6285722203216"
+            target="_blank"
+            className="px-8 py-3 bg-accent text-accent-foreground rounded-lg font-semibold hover:bg-blue-400 transition-colors"
+          >
             Get In Touch
-          </button>
+          </a>
         </div>
       </section>
 
@@ -305,26 +330,22 @@ export default function Portfolio() {
       <footer className="mx-auto max-w-7xl px-6 py-12 border-t border-border">
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
           <div className="text-muted-foreground text-sm">
-            © 2024 Your Name. All rights reserved.
+            © 2025 Muhammad Iqbal Mudzakky. All rights reserved.
           </div>
           <div className="flex items-center gap-6">
             <a
-              href="#"
+              href="https://github.com/iqbalmudzakky"
+              target="_blank"
               className="text-muted-foreground hover:text-foreground transition-colors text-sm"
             >
-              GitHub
+              Github
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/muhammad-iqbal-mudzakky-4b4829203/"
+              target="_blank"
               className="text-muted-foreground hover:text-foreground transition-colors text-sm"
             >
               LinkedIn
-            </a>
-            <a
-              href="#"
-              className="text-muted-foreground hover:text-foreground transition-colors text-sm"
-            >
-              Twitter
             </a>
           </div>
         </div>
