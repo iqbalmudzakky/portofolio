@@ -66,6 +66,30 @@ export default function Portfolio() {
       image: "./myquip.png",
       link: "https://myquip-app.vercel.app/",
     },
+    {
+      id: 4,
+      title: "GameHub-Insight",
+      description:
+        "A full-stack gaming discovery platform featuring infinite scrolling, search, authentication, favorites, and AI-based game recommendations.",
+      tech: [
+        "React",
+        "Redux Toolkit",
+        "Vite",
+        "Axios",
+        "Infinite Scroll",
+        "Node.js",
+        "Express",
+        "PostgreSQL",
+        "Sequelize",
+        "JWT",
+        "Google OAuth",
+        "Gemini API",
+        "Jest",
+        "Supertest",
+      ],
+      image: "./gamehub-insight.png",
+      link: "https://github.com/iqbalmudzakky/gamehub-insight",
+    },
   ];
 
   const experiences = [
@@ -239,7 +263,7 @@ export default function Portfolio() {
                   href={project.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 text-blue-600 hover:gap-3 transition-all text-sm font-semibold absolute top-4 right-4"
+                  className="inline-flex items-center gap-2 text-blue-600 hover:gap-3 transition-all text-sm font-semibold absolute bottom-4 right-4"
                 >
                   View Project <ExternalLink className="w-4 h-4" />
                 </a>
