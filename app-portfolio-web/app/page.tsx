@@ -16,7 +16,16 @@ export default function Portfolio() {
   const projects = [
     {
       id: 1,
-      title: "Task List",
+      title: "Book Review App",
+      description:
+        "A book catalog and review web app with search by title, filter tabs (popular/highest-rated by time range), pagination, average rating + review count aggregation, and a review form with validation plus request throttling. Book details are cached for faster access.",
+      tech: ["Laravel 12", "PHP 8.2", "Blade", "Tailwind CSS", "Eloquent ORM"],
+      image: "./book-review.png",
+      link: "https://github.com/iqbalmudzakky/book-review-app-laravel",
+    },
+    {
+      id: 2,
+      title: "Task List App",
       description:
         "A CRUD task management web app with pagination, validation, and status toggle, enabling users to create, view, update, and complete tasks efficiently.",
       tech: [
@@ -31,7 +40,7 @@ export default function Portfolio() {
       link: "https://github.com/iqbalmudzakky/task-list-app-laravel",
     },
     {
-      id: 2,
+      id: 3,
       title: "MedQueueAI",
       description:
         "A real-time clinic queue management and payment web application with ETA prediction, enabling patients to monitor queue status live and clinics to manage consultations efficiently.",
@@ -49,7 +58,7 @@ export default function Portfolio() {
       link: "https://medqueue-navy.vercel.app/",
     },
     {
-      id: 3,
+      id: 4,
       title: "MyQuip-App",
       description:
         "A modern e-commerce web application inspired by Quip, featuring product browsing, wishlist management, user authentication, and a responsive shopping experience.",
@@ -67,7 +76,7 @@ export default function Portfolio() {
       link: "https://myquip-app.vercel.app/",
     },
     {
-      id: 4,
+      id: 5,
       title: "GameHub-Insight",
       description:
         "A full-stack gaming discovery platform featuring infinite scrolling, search, authentication, favorites, and AI-based game recommendations.",
